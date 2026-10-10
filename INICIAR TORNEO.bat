@@ -1,0 +1,5 @@
+@echo off
+title Torneo CS2 - Coliseo Arena Gamer
+cd /d "%~dp0"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0servidor.ps1"
+pause
